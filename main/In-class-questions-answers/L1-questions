@@ -1,0 +1,80 @@
+# Lecture 1
+
+## 1. Question
+
+Shell vs. Editor
+You run the code below from the editor.
+
+`type(5)`
+`print(3.0-1)`
+What’s printed?
+
+  int
+  2.0
+  int then 2.0
+  nothing
+
+## 1. Answer
+
+If you ran the code type(5) and print(3.0-1) from the editor, the following would be printed:
+
+2.0
+
+The first line of code, type(5), calls the built-in type() function with the argument 5, which returns the type of the value 5. However, this line of code does not include a print statement, so the result is not printed.
+
+The second line of code, print(3.0-1), calls the built-in print() function with the argument 3.0-1, which is an expression that evaluates to 2.0. The print() function prints the value of its argument to the screen, so the result 2.0 is printed.
+
+Therefore, the output of this code would be 2.0.
+
+---
+
+## 2. Question
+
+Python vs. Math
+Which is allowed in Python?
+
+  x + y = 2
+  x\*x = 2
+  2 = x
+  xy = 2  
+  None of the Above
+
+## 2. Answer
+
+xy = 2 is the only one that is allowed in Python. The other four are not allowed in Python.
+
+It is allowed because the assignment operator (=) is used to assign a value to a variable. The variable must start with an underscore or letter. The rest of the variable name can be letters, numbers, or underscores. The variable name cannot be a Python keyword. You cannot compare two variables using the assignment operator.
+
+---
+
+## 3. Question
+
+You run the code below from the file editor.
+
+`usa_gold = 46`
+`uk_gold = 27`
+`romania_gold = 1`
+
+`total_gold = usa_gold + uk_gold + romania_gold`
+`print(total_gold)`
+
+`romania_gold += 1`
+`print(total_gold)`
+What’s printed?
+
+## 3. Answer
+
+If you ran the code from the file editor, the following would be printed:
+
+    74
+    74
+
+The first line of code, total_gold = usa_gold + uk_gold + romania_gold, assigns the value of the expression usa_gold + uk_gold + romania_gold to the variable total_gold. At this point, the value of total_gold is 46 + 27 + 1 = 74.
+
+The second line of code, print(total_gold), calls the built-in print() function with the argument total_gold, which prints the value of total_gold to the screen. Therefore, the value 74 is printed.
+
+The third line of code, romania_gold += 1, increments the value of the variable romania_gold by 1. After this line of code is executed, the value of romania_gold is 2.
+
+The fourth line of code, print(total_gold), calls the built-in print() function with the argument total_gold, which prints the value of total_gold to the screen. However, the value of total_gold has not changed since it was last assigned, so the value 74 is printed again.
+
+---
