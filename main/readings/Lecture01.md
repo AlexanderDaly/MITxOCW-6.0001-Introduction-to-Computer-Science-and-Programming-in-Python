@@ -16,3 +16,9 @@ Strings: a sequence of characters that represent text (e.g. "hello world")
 Primitive data types are typically handled directly by the programming language and the computer's hardware, and do not require the creation of additional objects in order to be used. They are often used as building blocks for more complex data structures, such as arrays, lists, and dictionaries
 
 ---
+
+What is computation?
+
+Computation is the process of carrying out a specific set of instructions, typically by a computer, to transform input data into output data. It involves the use of algorithms and programs to perform various tasks, such as data processing, calculation, and decision making. Computation is a key aspect of modern computing and is at the heart of many technologies and devices that we use in our daily lives.
+
+---
